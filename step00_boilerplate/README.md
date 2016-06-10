@@ -7,6 +7,12 @@ Quickstart project template for learning React.
 
 This boilerplate is purposefully simple to show the minimal setup needed to create React projects with Webpack and Babel. It aims to be a starting point for learning React, with low cognitive load and as such avoids having many separate config files and advanced configuration options, while providing a solid foundation for new React projects.
 
+To understand Webpack read:
+http://www.pro-react.com/materials/appendixA/
+
+To understand JS 2015 read:
+http://www.pro-react.com/materials/appendixB.pdf
+
 ### Usage
 **Clone this repository**
 ```
