@@ -5,7 +5,13 @@ export class App extends Component {
   constructor(){
       super();
       this.state = { counter: 0};
+      this.handleClick = this.handleClick.bind(this);
   }
+
+  handleClick() {
+    this.setState({counter: this.state.counter + 1});
+  }
+
   render(){
  
     return (
@@ -13,9 +19,7 @@ export class App extends Component {
         <div>
         {this.state.counter}
         </div>
-        <button onClick={
-                          ()=>this.setState({counter: this.state.counter + 1})  
-                      }>Add</button>
+        <button onClick={this.handleClick}>Add</button>
 
       </div>
     ); 
