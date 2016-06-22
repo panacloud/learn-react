@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {Child} from './Child';
+import {ChildOne} from './ChildOne';
+import {ChildTwo} from './ChildTwo';
 
 
 export class App extends Component {
@@ -14,7 +15,8 @@ export class App extends Component {
     return (
       <div> 
         This is from the Root Component
-        <Child></Child>
+        <ChildOne></ChildOne>
+        <ChildTwo></ChildTwo>
       </div>
     ); 
   }

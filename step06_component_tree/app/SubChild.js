@@ -1,23 +1,17 @@
 import React, { Component } from 'react';
-import {Child} from './Child';
 
 
-export class App extends Component {
+export class SubChild extends Component {
   constructor(){
       super();
   }
-
-
 
   render(){
  
     return (
       <div> 
-        This is from the Root Component
-        <Child></Child>
+        This is from the Sub Child component
       </div>
     ); 
   }
 }
-
-
